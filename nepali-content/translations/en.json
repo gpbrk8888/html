@@ -1,0 +1,19 @@
+```json
+{
+    "welcome": "Welcome to Himalayan Harvest",
+    "products": "Our Products",
+    "about": "About Us",
+    "order": "Order Now",
+    "contact": "Contact",
+    "language": "Language",
+    "akabare": "Akabare Khursani",
+    "coffee": "Nepali Coffee",
+    "oranges": "Himalayan Oranges",
+    "vegetables": "Fresh Vegetables",
+    "description": "Fresh organic products from the hills of Nepal",
+    "login": "Login",
+    "signup": "Sign Up",
+    "cart": "Cart",
+    "search": "Search products..."
+}
+```
