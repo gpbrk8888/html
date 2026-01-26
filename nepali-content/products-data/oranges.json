@@ -1,0 +1,34 @@
+```json
+{
+    "product": {
+        "nepaliName": "सुन्तला",
+        "englishName": "Himalayan Oranges",
+        "varieties": ["माण्डरिन", "नागपुरी", "माल्टा"],
+        "season": "मंसिर देखि चैत्र सम्म",
+        "regions": ["सिन्धुपाल्चोक", "नुवाकोट", "धादिङ"],
+        "description": "हिमालयको घाँसीमा उम्रने मिठो र रसदार सुन्तला",
+        "nutrition": {
+            "vitaminC": "उच्च",
+            "calories": "कम",
+            "fiber": "उच्च"
+        },
+        "products": [
+            {
+                "type": "ताजा सुन्तला",
+                "price": "रु 150-250/किलो",
+                "grade": "A, B, C"
+            },
+            {
+                "type": "सुन्तलाको रस",
+                "price": "रु 300/लिटर",
+                "preservation": "शीतल"
+            },
+            {
+                "type": "मार्मलेड",
+                "price": "रु 400/जार",
+                "size": "500 ग्राम"
+            }
+        ]
+    }
+}
+```
