@@ -1,17 +1,1 @@
-<!DOCTTYPE html>
-<html Lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="view port" contract="with=divice-width, initial-scale=1.0">
-  <title> code start- learn coding from </title>
-  <style>
-    /* morden css Reset and Variables*/
-    *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border- box;
-      {
-      :root {
-        --pramary: #2563ed;
-        
-</head>
+mkdir -p himalayan-harvest/{nepali-content/{translations,products-data},public/{images/{products/{akabare-khursani,coffee,oranges,vegetables},farm,nepali-elements},videos,documents},src/{components/{ProductHighlight,NepaliElements,OrderSystem,Information},pages/{Home,Products/{AkabareKhursani,NepaliCoffee,CitrusOrchard,KitchenGarden},Order,About,Resources},utils,styles},backend/models,config}
