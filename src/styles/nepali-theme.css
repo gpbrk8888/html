@@ -1,0 +1,107 @@
+```css
+:root {
+    /* Colors inspired by Nepal */
+    --color-mountain: #4A6FA5;
+    --color-terracotta: #C1554D;
+    --color-saffron: #FF9933;
+    --color-forest: #2E5E4E;
+    --color-rice: #F5F5DC;
+    --color-sunset: #FF6B6B;
+    --color-earth: #8B4513;
+    --color-rhododendron: #E75480;
+    
+    /* Typography */
+    --font-nepali: 'Preeti', 'Mangal', 'Noto Sans Devanagari', sans-serif;
+    --font-english: 'Poppins', 'Roboto', sans-serif;
+    
+    /* Spacing */
+    --spacing-small: 0.5rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 2rem;
+}
+
+/* Base styles */
+body {
+    font-family: var(--font-english);
+    background-color: var(--color-rice);
+    color: var(--color-earth);
+    margin: 0;
+    padding: 0;
+}
+
+/* Nepali text */
+.nepali-text {
+    font-family: var(--font-nepali);
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, var(--color-mountain), var(--color-forest));
+    color: white;
+    padding: var(--spacing-medium);
+}
+
+/* Product cards */
+.product-card {
+    border: 2px solid var(--color-terracotta);
+    border-radius: 10px;
+    padding: var(--spacing-medium);
+    margin: var(--spacing-medium);
+    background: white;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+.btn-nepali {
+    background-color: var(--color-saffron);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: var(--font-nepali);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-nepali:hover {
+    background-color: var(--color-terracotta);
+}
+
+/* Price tag */
+.price-tag {
+    color: var(--color-forest);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--color-forest);
+    color: white;
+    padding: var(--spacing-large);
+    text-align: center;
+}
+
+/* Responsive grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-medium);
+}
+
+/* Color classes */
+.color-mountain { color: var(--color-mountain); }
+.color-terracotta { color: var(--color-terracotta); }
+.bg-terracotta { background-color: var(--color-terracotta); }
+.color-saffron { color: var(--color-saffron); }
+.bg-saffron { background-color: var(--color-saffron); }
+.color-forest { color: var(--color-forest); }
+.bg-forest { background-color: var(--color-forest); }
+```
