@@ -1,0 +1,30 @@
+{
+  "name": "himalayan-harvest-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Himalayan Harvest - Nepali agricultural products e-commerce",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nepal",
+    "agriculture",
+    "e-commerce",
+    "organic",
+    "himalayan"
+  ],
+  "author": "Himalayan Harvest Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
